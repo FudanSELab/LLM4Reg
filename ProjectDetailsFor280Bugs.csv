@@ -1,0 +1,85 @@
+Project,Project Stars,Number of Bugs,Project Description
+alibaba/fastjson,25748,80,Fastjson is a Java library that can be used to convert Java Objects into their JSON representation. It can also be used to convert a JSON string to an equivalent Java object
+jhy/jsoup,10943,17,"jsoup: the Java HTML parser, built for HTML editing, cleaning, scraping, and XSS safety."
+google/closure-templates,640,10,A client- and server-side templating system that helps you dynamically build reusable HTML and UI elements
+uniVocity/univocity-parsers,912,9,"uniVocity-parsers is a suite of extremely fast and reliable parsers for Java. It provides a consistent interface for handling different file formats, and a solid framework for the development of new parsers."
+alibaba/druid,27961,9,"DataWorks, a product from the Alibaba Cloud Computing Platform (https://help.aliyun.com/document_detail/137663.html), is a database connection pool designed for monitoring purposes."
+INRIA/spoon,1751,8,"Spoon is a metaprogramming library to analyze and transform Java source code. :spoon: is made with :heart:, :beers: and :sparkles:. It parses source files to build a well-designed AST with powerful analysis and transformation API."
+mikera/vectorz,243,7,Fast and flexible numerical library for Java featuring N-dimensional arrays
+jqno/equalsverifier,708,7,EqualsVerifier can be used in Java unit tests to verify whether the contract for the equals and hashCode methods is met.
+jdereg/java-util,418,6,"Rare, hard-to-write utilities that are thoroughly tested"
+jmrozanec/cron-utils,1151,5,"Cron utils for parsing, validations and human readable descriptions as well as date/time interoperability."
+yegor256/cactoos,743,4,"Object-Oriented Java primitives, as an alternative to Google Guava and Apache Commons"
+davidmoten/rtree,1093,4,Immutable in-memory R-tree and R*-tree implementations in Java with reactive api
+classgraph/classgraph,2766,4,An uber-fast parallelized Java classpath scanner and module scanner.
+spring-projects/spring-hateoas,1036,4,Spring HATEOAS - Library to support implementing representations for hyper-text driven REST web services.
+decorators-squad/eo-yaml,261,4,YAML for Java 8 and above. A user-friendly OOP library. Previously known as "Camel".
+apache/commons-compress,336,3,Apache Commons Compress
+assertj/assertj-core,2624,3,AssertJ is a library providing easy to use rich typed assertions
+crawler-commons/crawler-commons,237,3,A set of reusable Java components that implement functionality common to any web crawler
+brettwooldridge/HikariCP,19984,3,"HikariCP・A solid, high-performance, JDBC connection pool at last."
+Commonjava/partyline,4,3,Concurrent File write + multiple read for servers that proxy content
+bguerout/jongo,584,3,Query in Java as in Mongo shell
+lemire/javaewah,561,3,A compressed alternative to the Java BitSet class
+cflint/CFLint,174,3,Static code analysis for CFML (a linter)
+antlr/stringtemplate4,950,2,StringTemplate 4
+jeffheaton/encog-java-core,742,2,Encog is a pure-Java/C# machine learning framework
+damianszczepanik/cucumber-reporting,546,2,HTML reports for Cucumber
+jeffdcamp/dbtools-query,4,2,Kotlin Multiplatform library to build sql queries.
+PapenfussLab/gridss,255,2,GRIDSS: the Genomic Rearrangement IDentification Software Suite
+graphaware/neo4j-nlp,335,2,NLP Capabilities in Neo4j
+osglworks/java-tool,52,2,Some simple common Java utilities
+scijava/scijava-common,89,2,A plugin framework and application container with built-in extensibility mechanism :electric_plug:
+cojen/Tupl,116,2,"TuplDB is a high-performance, concurrent, transactional, scalable, low-level embedded database."
+addthis/stream-lib,2258,2,Stream summarizer and cardinality estimator.
+mybatis/mybatis-3,19763,2,MyBatis SQL mapper framework for Java
+gresrun/jesque,628,2,An implementation of Resque in Java.
+chewiebug/GCViewer,4462,2,"Fork of tagtraum industries' GCViewer. Tagtraum stopped development in 2008, I aim to improve support for Sun's / Oracle's java 1.6+ garbage collector logs (including G1 collector)"
+logfellow/logstash-logback-encoder,2438,2,Logback JSON encoder and appenders
+DiUS/java-faker,4747,2,Brings the popular ruby faker gem to Java
+logic-ng/LogicNG,134,2,The Next Generation Logic Library
+jmurty/java-xmlbuilder,107,2,XML Builder is a utility that allows simple XML documents to be constructed using relatively sparse Java code
+srikanth-lingala/zip4j,2076,1,A Java library for zip files and streams
+vert-x3/vertx-codegen,107,1,Vert.x code generator for asynchronous polyglot APIs
+getgauge/gauge-java,91,1,Java runner for Gauge
+davidmoten/rxjava-jdbc,807,1,Efficient execution and functional composition of database calls using jdbc and RxJava Observables
+amaembo/streamex,2195,1,Enhancing Java Stream API
+hub4j/github-api,1146,1,Java API for GitHub
+apache/commons-jexl,199,1,Apache Commons JEXL
+EsotericSoftware/reflectasm,1530,1,High performance Java reflection
+yegor256/takes,810,1,"True Object-Oriented Java Web Framework without NULLs, Static Methods, Annotations, and Mutable Objects"
+apache/commons-beanutils,286,1,Apache Commons Beanutils
+brianm/config-magic,81,1,Convenience Configuration Library for Java
+gitlab4j/gitlab4j-api,1069,1,GitLab4J API (gitlab4j-api) provides a full featured Java client library for working with GitLab repositories via the GitLab REST API
+amplafi/htmlcleaner,46,1,HtmlCleaner is an open source HTML parser written in Java.
+google/gson,23365,1,A Java serialization/deserialization library to convert Java Objects into JSON and back
+fabric8io/docker-maven-plugin,1877,1,Maven plugin for running and creating Docker images
+tntim96/JSCover,399,1,"JSCover is a JavaScript Code Coverage Tool that measures line, branch and function coverage"
+lightblueseas/jcommons-lang,5,1,Project that holds different usefull utility and extension classes
+doctau/garbagecat,8,1,A command line tool that parses Java garbage collection logging and does analysis to support JVM tuning and troubleshooting for OpenJDK and Sun/Oracle JDK
+mooreds/gwt-crypto,11,1,Automatically exported from code.google.com/p/gwt-crypto
+aliyun/aliyun-oss-java-sdk,1217,1,Aliyun OSS SDK for Java
+wsky/top-push,8,1,"Message-push abstraction component, provide useful messaging components."
+josephw/futoshiki,1,1,An automated solver for Futoshiki puzzles
+camueller/SmartApplianceEnabler,128,1,This gateway software turns existing devices into smart appliances.
+hyperledger/fabric-sdk-java,1116,1,"This project provides a low-level API for interacting with Hyperledger Fabric blockchain networks, and is used by the high-level Hyperledger Fabric Gateway SDK for Java"
+vert-x3/vertx-mqtt,184,1,"Vert.x MQTT, provides server and client"
+fasseg/exp4j,493,1,A tiny math expression evaluator for the Java programming language
+OfficeDev/ews-java-api,869,1,A java client library to access Exchange web services. The API works against Office 365 Exchange Online as well as on premises Exchange.
+AsyncHttpClient/async-http-client,6289,1,Asynchronous Http and WebSocket Client library for Java
+mrniko/netty-socketio,6809,1,Socket.IO server implemented on Java. Realtime java framework
+GoogleCloudPlatform/app-maven-plugin,102,1,The library has moved to https://github.com/GoogleCloudPlatform/appengine-plugins/tree/main/app-maven-plugin
+neuland/jade4j,707,1,a pug implementation written in Java (formerly known as jade)
+basho/riak-java-client,267,1,The Riak client for Java.
+codehaus/jettison,16,1,Jettison is a Java library for converting XML to JSON and vice-versa with the help of StAX
+codelibs/jcifs,225,1,JCIFS is an Open Source client library that implements the CIFS/SMB networking protocol in 100% Java
+influxdata/influxdb-java,1183,1,Java client for InfluxDB
+joaovicente/Tracy,5,1,A simple tracing framework inspired by XTrace
+redis/jedis,11861,1,Redis Java client
+jboss-javassist/javassist,4111,1,Java bytecode engineering toolkit
+haku/dlnatoad,36,1,Minimal media server with DLNA
+rickfast/consul-client,571,1,Java Client for Consul HTTP API
+lets-blade/blade,5843,1,:rocket: Lightning fast and elegant mvc framework for Java8
+albfernandez/javadbf,223,1,Java library for reading and writing Xbase (dBase/DBF) files.
+jitsi/ice4j,437,1,A Java implementation of the ICE protocol
+marschall/memoryfilesystem,284,1,An in memory implementation of a JSR-203 file system
