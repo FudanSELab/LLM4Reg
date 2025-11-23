@@ -70,11 +70,11 @@ Based on the experimental results, in the experiments of the paper, we set the T
 
 
 ## 280 Manually Analyzed Regression Bugs
-You can find in Detailsof280RegressionBugs.csv.
+You can find in [Detailsof280RegressionBugs.csv](./Detailsof280RegressionBugs.csv).
 
 ## Project Details for 280 Bugs
 
-You can find in ProjectDetailsFor280Bugs.csv, and you can access all of these projects in Github.
+You can find in [ProjectDetailsFor280Bugs.csv](./ProjectDetailsFor280Bugs.csv), and you can access all of these projects in Github.
 
 ## Bug Examples(RQ3): Cast Errors and Uncaught Exceptions
 
@@ -102,4 +102,4 @@ The code changes hope to enhance `TypeReference` performance. However, the retur
 While it is known that the initialization code of `TypeReference` has changed, the declaration and partial assignment of the new return value `cacheType` are outside the changed code. Even though it can be understood from the changed code that the declaration `cachedType` is `Type`, the type relationship between `Type` and `ParameterizedType` is not clear.
 
 ## More Bugs
-You can find more bug examples in MoreBugs.md.
+You can find more bug examples in [MoreBugs.md](./MoreBugs.md).
