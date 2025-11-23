@@ -34,7 +34,7 @@ Repository for the paper "Characterizing Regression Bug‑Inducing Changes and I
 ![](./assets/jit-dp.png)
 
 ## Replication Package
-Our code and data are available in replicatepackage.zip.
+Our code and data are available in [replicationpackage.zip](https://drive.google.com/file/d/1JMyja_OpdrNKV9epnKTzCRCEidW0kEAi/view).
 
 ## Change Impact Analysis and Co-changed Files Top-k Setting
 In order to fairly select the optimal Top-k values for the change impact methods and co-changed files, we conducted a series of experiments focusing on the parameter k. Through these experiments, we aimed to observe the impact of varying k on both change impact methods and co-changed files analysis, ultimately identifying the best value for k. Below are the experimental results for various k values, showcasing the variations in Precision, Recall, F1-score, and Explanation Accuracy.
