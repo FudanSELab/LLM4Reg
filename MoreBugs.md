@@ -22,6 +22,7 @@ returned nullsafe(), but ignore the case that typeAdapter is null by itself.
 
 <img src="./assets/unchecked-null-1.png" style="zoom:67%;" />
 <img src="./assets/unchecked-null-2.png" style="zoom:67%;" />
+
 typeAdapter is null!
 
 ### API Misuse
@@ -35,8 +36,10 @@ BIC: The BIC generates random numbers using the BigDecimal class, but due to the
 
 <img src="./assets/api-misuse-1.png" style="zoom:67%;" />
 <img src="./assets/api-misuse-2.png" style="zoom:67%;" />
+
 Testcase that triggers the bug:
 <img src="./assets/api-misuse-3.png" style="zoom:67%;" />
+
 BIC Error Message:
 <img src="./assets/api-misuse-4.png" style="zoom:67%;" />
 
@@ -49,8 +52,10 @@ BIC: e693aaf36b9df00adb78d1698987b7dea2dd9679
 BIC: The BIC changed the default value of args in the Packet class from null to Collections.emptyList(), leading to an incompatibility with the encoding logic in the Encoder class. According to the specification, if args is empty, the encoded result should omit the args field rather than include an empty list. Due to this incompatibility, the Encoder generated "args":[], causing the test to fail.
 
 <img src="./assets/dataflow-1.png" style="zoom:67%;" />
+
 Testcase that triggers the bug:
 <img src="./assets/dataflow-2.png" style="zoom:67%;" />
+
 BIC Error Message:
 <img src="./assets/dataflow-3.png" style="zoom:67%;" />
 
@@ -61,9 +66,11 @@ yegor256/cactoos:  Object-Oriented Java primitives, as an alternative to Google 
 BIC: 7d703932682ab2094f62f45588b7db9fcd15acea
 
 BIC overrides close() method of WriterAsOutputStream, which closes the writer(java.io.Writer). 
+
 <img src="./assets/invocation-1.png" style="zoom:67%;" />
 <img src="./assets/invocation-2.png" style="zoom:67%;" />
 <img src="./assets/invocation-3.png" style="zoom:67%;" />
+
 close() of TeeInputStream called its output.close(), which is the close() in WriterAsOutputStream.
 
 

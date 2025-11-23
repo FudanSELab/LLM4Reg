@@ -99,6 +99,7 @@ The code changes hope to enhance `TypeReference` performance. However, the retur
 
 ![](./assets/rq3-cast-error-1.png)
 ![](./assets/rq3-cast-error-2.png)
+
 While it is known that the initialization code of `TypeReference` has changed, the declaration and partial assignment of the new return value `cacheType` are outside the changed code. Even though it can be understood from the changed code that the declaration `cachedType` is `Type`, the type relationship between `Type` and `ParameterizedType` is not clear.
 
 ## More Bugs
